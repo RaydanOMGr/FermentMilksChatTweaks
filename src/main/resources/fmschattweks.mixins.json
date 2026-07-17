@@ -1,0 +1,20 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "me.andreasmelone.fmschattweaks.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "fmschattweks.refmap.json",
+  "mixins": [
+  ],
+  "client": [
+    "ChatComponentMixin",
+    "ChatScreenAccessor",
+    "ChatScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}
